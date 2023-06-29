@@ -7,7 +7,7 @@ TOKEN = os.getenv("DISCORD_TOKEN")
 intents = discord.Intents.all()
 discord.Intents.message_content = True
 client = discord.Client(intents=intents)
-authorized_channels = ["general", "lobby"]  # List of the channels you want to authorize for this bot
+authorized_channels = []  # List of the channels you want to authorize for this bot
 
 
 @client.event
