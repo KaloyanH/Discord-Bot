@@ -16,5 +16,9 @@ The cat images are obtained from [The Cat API](https://thecatapi.com/).
 
 For Google search functionality, I utilized the [Google Programmable Search Engine](https://developers.google.com/custom-search).
 
+## Bot Hosting
+
+This bot is hosted using the online bot hosting service provided by [Daki.cc](https://daki.cc/). They offer a reliable and free solution for hosting Discord bots.
+
 Feel free to explore the provided links for more information.
 
