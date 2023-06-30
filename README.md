@@ -16,6 +16,10 @@ The cat images are obtained from [The Cat API](https://thecatapi.com/).
 
 For Google search functionality, I utilized the [Google Programmable Search Engine](https://developers.google.com/custom-search).
 
+## Random Jokes
+
+Free random jokes can be found here: [JokeAPI](https://jokeapi.dev/).
+
 ## Bot Hosting
 
 This bot is hosted using the online bot hosting service provided by [Daki.cc](https://daki.cc/). They offer a reliable and free solution for hosting Discord bots.
