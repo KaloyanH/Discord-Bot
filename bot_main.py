@@ -33,7 +33,8 @@ async def on_message(message):
             await get_a_cat_command(channel, message)
         elif cmd.startswith("!google"):
             await handle_google_search(channel, message, cmd)
-
+        elif cmd.startswith("!find"):
+            await find_product_command(channel, cmd)
 
 
 client.run(TOKEN)
