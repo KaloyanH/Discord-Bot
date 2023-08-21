@@ -2,6 +2,7 @@ from api_commands.cats_api import cats_api_response
 from api_commands.google_api import google_api_response
 from api_commands.joke_api import joke_api_response
 from api_commands.weather_api import weather_api_response
+from scraper.basic_scraper import extract_products_from_site, visualize_table
 
 
 async def list_of_commands(channel, message):
@@ -37,3 +38,7 @@ async def handle_google_search(channel, message, cmd):
     query = cmd.split(" ", 1)[1]
     await google_api_response(channel, message, query)
     
+async def find_product_command(channel, cmd):
+    search_term = cmd.replace('!find', '', 1).strip()
+    df = extract_products_from_site(search_term)
+    await visualize_table(channel, df)
