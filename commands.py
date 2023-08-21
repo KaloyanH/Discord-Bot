@@ -7,7 +7,7 @@ from scraper.basic_scraper import extract_products_from_site, visualize_table
 
 async def list_of_commands(channel, message):
     await channel.send(f"{message.author.mention} Current commands are : !Hi, !Bye, !Joke, "
-                       f"!google (Enter query), !Weather (Enter city), !cat")
+                       f"!google (Enter query), !Weather (Enter city), !cat, !find")
 
 
 async def hello_command(channel, message):
