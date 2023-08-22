@@ -11,7 +11,9 @@ from bs4 import BeautifulSoup
 
 
 def extract_products_from_site(search_term):
-    driver = webdriver.Edge()
+    options = webdriver.EdgeOptions()
+    options.add_argument("--headless")
+    driver = webdriver.Edge(options=options)
     driver.get(target_url)
 
     search_input = driver.find_element(By.CSS_SELECTOR, ".c-search__input")
