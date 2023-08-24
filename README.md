@@ -24,5 +24,6 @@ Free random jokes can be found here: [JokeAPI](https://jokeapi.dev/).
 
 This bot is hosted using the online bot hosting service provided by [Daki.cc](https://daki.cc/). They offer a reliable and free solution for hosting Discord bots.
 
-Feel free to explore the provided links for more information. Important Notice: Please be advised that the web scraper functionality is currently incompatible with the Daki.cc environment due to constraints related to the absence of headless browser support
+Feel free to explore the provided links for more information. 
+Important Notice: Please be advised that the web scraper functionality is currently incompatible with the Daki.cc environment due to constraints related to the absence of headless browser support
 
