@@ -1,0 +1,6 @@
+discord~=2.3.0
+pandas~=2.0.3
+selenium~=4.11.2
+beautifulsoup4~=4.12.2
+matplotlib~=3.7.2
+requests~=2.31.0
